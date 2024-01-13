@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/test_logo.svg" alt="Logoipsum" />
+        {/*<img src="./img/test_logo.svg" alt="Logoipsum" /> */}
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -69,21 +69,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              About Me
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="AboutMe"
+              to="mySkills"
               className="navbar--content"
             >
               Skills
@@ -97,10 +83,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="MyPortfolio"
               className="navbar--content"
             >
-              Portfolio
+              Projects
             </Link>
           </li>
           <li>
@@ -111,7 +97,21 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="AboutMe"
+              className="navbar--content"
+            >
+              About Me
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Contact"
               className="navbar--content"
             >
               Contact
@@ -127,14 +127,14 @@ function Navbar() {
         offset={-70}
         duration={500}
         to="Contact"
-        className="btn btn-touch" // Add "btn-lg" for a larger button
+        className="btn btn-touch" 
         style={{
-          backgroundColor: "black", // Change the background color
-          color: "#fff", // Change the text color
-          borderRadius: "10px", // Add rounded corners
-          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)", // Add a subtle shadow
-          textDecoration: "none", // Remove underline
-          padding: "10px 20px", // Adjust padding as needed
+          backgroundColor: "black", 
+          color: "#fff", 
+          borderRadius: "10px", 
+          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)", 
+          textDecoration: "none", 
+          padding: "10px 20px", 
         }}
       >
         Contact Me

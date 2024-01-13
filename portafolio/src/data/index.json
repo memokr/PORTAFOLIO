@@ -2,27 +2,27 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/front_end.png",
-      "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/ux.png",
+      "title": "UI & UX Design",
+      "description": "Proficient in crafting intuitive user experiences through a combination of user interface (UI) and user experience (UX) design."
     },
     {
       "id": "2",
-      "src": "./img/back_end.png",
-      "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/app_logo.png",
+      "title": "iOS Development",
+      "description": " Enthusiastic iOS developer proficient in using the power of Swift and SwiftUI to create user-friendly mobile applications."
     },
     {
       "id": "3",
-      "src": "./img/ux.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/front_end.png",
+      "title": "Front-End",
+      "description": "Turning concepts into functional and efficient web applications using HTML, CSS, and JavaScript."
     },
     {
       "id": "4",
-      "src": "./img/app_logo.png",
-      "title": "App Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/back_end.png",
+      "title": "Back-End",
+      "description": "Experience on implementing scalable solutions using Python and Django, I seamlessly navigate PostgreSQL and SQL"
     }
   ],
   "portfolio": [
